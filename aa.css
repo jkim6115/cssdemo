@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #f2f2f2;
+  /* width: 950px; */
+  height: 95px;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  top: 35px;
+  left: 70px;
+}
+
+#top_menu {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  font-size: 12px;
+  word-spacing: 10px;
+  color: darkgray;
+}
+
+#top_menu a {
+  color: darkgray;
+}
+
+main {
+  position: relative;
+  height: 33px;
+  background-color: black;
+}
+
+nav {
+  position: absolute;
+  top: 5px;
+  left: 105px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 75px;
+  font-size: 12px;
+}
+
+nav li a {
+  color: darkgray;
+  font: bolder;
+}
+
+#search {
+  position: absolute;
+  top: 45px;
+  left: 330px;
+}
